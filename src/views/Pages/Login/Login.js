@@ -8,6 +8,8 @@ import logo from "../../../assets/images/logo/logo_login.png"
 import CustomFormGroup from '../../Common/FormGroup/FormGroup'
 import CustomButton from '../../Common/CustomButton/CustomButton'
 import Error from '../../Common/ErrorMessage/ErrorMessage'
+import InputPasswordToggle from '@components/input-password-toggle'
+
 
 const Login = (props) => {
 
@@ -37,9 +39,8 @@ const Login = (props) => {
                             <small>Olvidé mi contraseña</small>
                         </Link>
                     </div>
-                    <Input 
-                        value={values?.password}
-                        placeholder='**********'
+                    <InputPasswordToggle 
+                        htmlFor='basic-default-password' 
                         onChange={(e) => setFieldValue("password", e.target.value)}
                     />
                     <Error 
