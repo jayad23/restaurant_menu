@@ -24,17 +24,17 @@ module.exports = {
 
     // Best Practices
     eqeqeq: 'error',
-    'no-invalid-this': 'error',
-    'no-return-assign': 'error',
-    'no-unused-expressions': ['error', { allowTernary: true }],
-    'no-useless-concat': 'error',
-    'no-useless-return': 'error',
+    // 'no-invalid-this': 'error',
+    // 'no-return-assign': 'error',
+    // 'no-unused-expressions': ['error', { allowTernary: true }],
+    // 'no-useless-concat': 'error',
+    // 'no-useless-return': 'error',
 
     // Variable
     // 'init-declarations': 'error',
-    'no-use-before-define': 'error',
+    //'no-use-before-define': 'error',
 
-    'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z]' }],
+    //'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z]' }],
 
     // Stylistic Issues
     'array-bracket-newline': ['error', { multiline: true, minItems: null }],
@@ -72,7 +72,7 @@ module.exports = {
     'arrow-spacing': 'error',
     'no-confusing-arrow': 'error',
     'no-duplicate-imports': 'error',
-    'no-var': 'error',
+    //'no-var': 'error',
     'object-shorthand': 'error',
     'prefer-const': 'error',
     'prefer-template': 'error'
