@@ -1,0 +1,11 @@
+.login-custom-button{
+    background-color: rgb(247, 184, 24)!important;
+    letter-spacing: 10px !important;
+    border: none !important;
+    color: rgb(89, 49, 10) !important;
+    font-weight: bolder !important;
+    text-transform: uppercase;
+    &:focus{
+        background-color: rgb(247, 184, 24)!important;
+    }
+}
